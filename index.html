@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionArticle">
+        <div class="background-container">
+
+            <h1>Empower yourself</h1>
+            <p class="para">By learning new courses from worlds<br>leading experts</p>
+            <div class="lists d-flex flex-row justify-content-center">
+                <div class="list">
+                    <ul>
+                        <div class="image1">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-icon-img.png" height="100px" width="100px" onclick="display('sectiontech')" />
+                            <p>Technology</p>
+                        </div>
+                        <div class="image1">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-healthcare-icon-img.png" height="100px" width="100px" onclick="display('sectionhealth')" />
+                            <p>Health Care</p>
+                        </div>
+
+                    </ul>
+                </div>
+                <div class="list2">
+                    <ul>
+                        <div class="image1">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-science-icon-img.png" height="100px" width="100px" onclick="display('sectionScience')" />
+                            <p>Science</p>
+                        </div>
+                        <div class="image1">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-business-icon-img.png" height="100px" width="100px" onclick="display('sectionbus')" />
+                            <p>Business</p>
+                        </div>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectiontech">
+        <div class="back">
+            <div class="top">
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1>List of Topics</h1>
+            <ul class="list">
+                <li>Infrastructure Management</li>
+                <li>Latest in Health Care</li>
+                <li>Pharmaceuticals</li>
+                <li>COVID-19</li>
+            </ul>
+            <button onclick="display('sectionArticle')">Back</button>
+        </div>
+    </div>
+    <div id="sectionScience">
+        <div class="back">
+            <div class="top">
+                <div id="carouselExample1" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1>List of Topics</h1>
+            <ul class="list">
+                <li>Infrastructure Management</li>
+                <li>Latest in Health Care</li>
+                <li>Pharmaceuticals</li>
+                <li>COVID-19</li>
+            </ul>
+            <button onclick="display('sectionArticle')">Back</button>
+        </div>
+    </div>
+    <div id="sectionhealth">
+        <div class="back">
+            <div class="top">
+                <div id="carouselExample2" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1>List of Topics</h1>
+            <ul class="list">
+                <li>Infrastructure Management</li>
+                <li>Latest in Health Care</li>
+                <li>Pharmaceuticals</li>
+                <li>COVID-19</li>
+            </ul>
+            <button onclick="display('sectionArticle')">Back</button>
+        </div>
+    </div>
+    <div id="sectionbus">
+        <div class="back">
+            <div class="top">
+                <div id="carouselExample3" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c1-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c2-img.png" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.ccbp.in/frontend/static-website/articles-technology-c3-img.png" class="d-block w-100">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <h1>List of Topics</h1>
+            <ul class="list">
+                <li>Infrastructure Management</li>
+                <li>Latest in Health Care</li>
+                <li>Pharmaceuticals</li>
+                <li>COVID-19</li>
+            </ul>
+            <button onclick="display('sectionArticle')">Back</button>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
